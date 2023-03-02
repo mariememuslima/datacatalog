@@ -1,0 +1,5 @@
+package connect
+
+object connectObject {
+
+}

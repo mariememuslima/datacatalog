@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.2 (Private Build Java 1.8.0_352)
+[debug]       Load.loadUnit: plugins took 61.531508ms
+[debug]       Load.loadUnit: defsScala took 0.432211ms
+[debug] [Loading] Scanning directory /home/marieme/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/marieme/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 22.46283 ms
+[debug]           Load.resolveProject(global-plugins) took 58.37096ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/marieme/.sbt/1.0/plugins, plugins: List(<none>))) took 107.6414ms
+[debug] [Loading] Done in /home/marieme/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 128.522515ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.333408ms
+[debug]     Load.loadUnit(file:/home/marieme/.sbt/1.0/plugins/, ...) took 199.30975ms
+[debug]   Load.apply: load took 404.849623ms
+[debug]   Load.apply: resolveProjects took 117.555733ms
+[debug]   Load.apply: finalTransforms took 68.13569ms
+[debug]   Load.apply: config.delegates took 9.060147ms
+[debug]   Load.apply: Def.make(settings)... took 332.793768ms
+[debug]   Load.apply: structureIndex took 106.893163ms
+[debug]   Load.apply: mkStreams took 2.400947ms
+[info] loading global plugins from /home/marieme/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2071.167355ms
+[debug]           Load.loadUnit: plugins took 35.833003ms
+[debug]           Load.loadUnit: defsScala took 0.008034ms
+[debug] [Loading] Scanning directory /home/marieme/Documents/22_Scala/hive_Scala/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/marieme/Documents/22_Scala/hive_Scala/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.823669 ms
+[debug]               Load.resolveProject(hive_scala-build) took 0.859101ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hive_scala-build, base: /home/marieme/Documents/22_Scala/hive_Scala/project, plugins: List(<none>))) took 3.155588ms
+[debug] [Loading] Done in /home/marieme/Documents/22_Scala/hive_Scala/project, returning: (hive_scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4.860666ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.008762ms
+[debug]         Load.loadUnit(file:/home/marieme/Documents/22_Scala/hive_Scala/project/, ...) took 41.317108ms
+[debug]       Load.apply: load took 42.603624ms
+[debug]       Load.apply: resolveProjects took 0.222842ms
+[debug]       Load.apply: finalTransforms took 7.806935ms
+[debug]       Load.apply: config.delegates took 0.360089ms
+[debug]       Load.apply: Def.make(settings)... took 90.580137ms
+[debug]       Load.apply: structureIndex took 29.5867ms
+[debug]       Load.apply: mkStreams took 0.003727ms
+[info] loading project definition from /home/marieme/Documents/22_Scala/hive_Scala/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 487.783082ms
+[debug]     Load.loadUnit: defsScala took 0.00581ms
+[debug] [Loading] Scanning directory /home/marieme/Documents/22_Scala/hive_Scala
+[debug]       Load.loadUnit: mkEval took 7.951102ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.341932 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 180.321802ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/marieme/Documents/22_Scala/hive_Scala, plugins: List(<none>))) took 216.655202ms
+[debug] [Loading] Done in /home/marieme/Documents/22_Scala/hive_Scala, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2804.517411ms
+[debug]     Load.loadUnit: cleanEvalClasses took 103.517204ms
+[debug]   Load.loadUnit(file:/home/marieme/Documents/22_Scala/hive_Scala/, ...) took 3397.422625ms
+[debug] Load.apply: load took 3402.416303ms
+[debug] Load.apply: resolveProjects took 0.249527ms
+[debug] Load.apply: finalTransforms took 37.401649ms
+[debug] Load.apply: config.delegates took 11.530062ms
+[debug] Load.apply: Def.make(settings)... took 440.724088ms
+[debug] Load.apply: structureIndex took 2030.340952ms
+[debug] Load.apply: mkStreams took 0.005842ms
+[info] set current project to hive_Scala (in build file:/home/marieme/Documents/22_Scala/hive_Scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/marieme/.sbt/1.0/server/61caedcf542182f81ef3/sock
+[debug] Writing bsp connection file
+[info] started sbt server
